@@ -1,17 +1,4 @@
-// Rest Parameter, Spread Operator, dan Destructering
-
-/*Pada JavaScript ES6 terdapat Rest Parameter dan Spread Operator. Keduanya sama-sama menggunakan 
-elipsis atau tiga buah titik dalam sintaxnya, tetapi memiliki fungsi dan kegunaan yang berbeda.*/
-
-// REST PARAMETERS
-    /*  Rest parameter adalah parameter yang mewakili nilai dari semua (atau sisa) argument yang diberikan 
-        kepada suatu fungsi. Dengan kata lain Rest Parameter menggabungkan semua parameter pada function dalam 
-        sebuah Array yang ditandai dengan "...".*/
-
-    /*  Jika kita menjalankan sebuah function dengan output yang banyak, dan paramternya hanya 1 dan tanpa
-        rest parameter, maka hanya nilai pertama saja yang akan ditampilkan sebagai output.*/
-
-    //Contoh 1--------------------------------------------------------------------------------
+ //Contoh 1--------------------------------------------------------------------------------
     console.log("\n\n Rest Parameter :\n \nContoh 1");
     const day = (nama) => {
        console.log(nama);
